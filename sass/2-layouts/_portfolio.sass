@@ -1,0 +1,93 @@
+.portfolio
+	max-width: 100%
+	a
+		text-decoration: none
+		color: #000
+
+	h2
+		text-align: center
+		margin-top: 80px
+		margin-bottom: 60px
+		font-weight: bold
+
+	.portfolio-project
+		margin-bottom: 60px
+
+		padding: 20px 0px
+
+		.project-image
+			img
+				@media screen and (max-width: $screen-sm)
+					width: 			100%
+					max-width: 		100%
+					margin-bottom: 	30px
+
+				width: 100%
+				max-width: 500px
+
+		.project-details
+			@media screen and (max-width: $screen-sm)
+				text-align: center
+			h3
+				font-weight: bold
+
+			p
+				padding: 15px 0
+				font-size: 14px
+
+			.button
+				@media screen and (max-width: $screen-md)
+					max-width: 500px
+					margin: 20px auto
+
+				width: 100%
+				font-size: 14px
+				text-align: center
+				display: block
+				padding: 15px 15px
+				margin: 10px 0
+				border-radius: 7px
+
+			.view-project
+				color: #fff
+				background: $brand-color
+				border: 1px solid $brand-color
+
+				&:hover
+					background: #2c3e50
+
+			.view-git
+				color: #fff
+				background: #95a5a6
+				border: 1px solid #95a5a6
+
+				&:hover
+					background: #7f8c8d
+
+			.show-contact
+				color: hsla(207, 4%, 48%, .5)
+				border: 1px solid hsla(207, 4%, 48%, .5)
+
+				&:hover
+					border-color: hsla(207, 4%, 48%, .75)
+					color: hsla(207, 4%, 48%, .75)
+
+			.project-skills
+				font-size: 11px
+				padding: 15px 0
+
+				div
+					color: hsla(207, 4%, 48%, .8)
+					display: inline-block
+					margin-top: 5px
+					margin-bottom: 5px
+					margin-right: 5px
+					padding: 6px 15px
+					border: 1px solid hsla(207, 4%, 48%, .8)
+					border-radius: 30px
+
+					&:first-child
+						margin-left: 0px
+
+					&:last-child
+						margin-right: 0px
